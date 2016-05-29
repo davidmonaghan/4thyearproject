@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset = "utf-8">
+		<title>PraXis - Create Container</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		
+		<!-- <script src="/jquery/jquery-2.2.3.js"></script> -->
+	</head>
+
+	<body>
+		<div id="container">
+			
+			<div id="header">
+				<div id="header-container">
+					<div id="logo">
+						PraXis
+					</div>
+					<div id="header-right">
+						<div id="nav-container">
+							<ul class="navlist">
+								<li><a id="overViewHref" href="#">Overview</a></li>
+								<li><a href="#">Create New</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Forum</a></li>
+								<li><b><a id="logOutHref" href="index.html">Logout</a></b></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</div>
+						
+			<div id="middle">			
+				<div id="middle-section-1">
+					<div class="home-content">
+						<div id="status">Connecting...</div>
+						<div id="ContainerIPaddress"></div>
+							<div id="form">
+								<form id="newContainerForm" autocomplete ="on">
+									<table>
+										<tr>
+											<td colspan="2" align="center"><h1>Container Configuration</h1></td>
+										</tr>
+										<tr>
+											<td>Container Name</td>
+											<td><input id="containerName" type="text" placeholder = "My Container Name" required /></td>
+											<td><div id="containerStatus"></div></td>
+										</tr>
+										<tr>
+											<td>Base Server</td>
+											<td>
+												<select id="BaseServer" name="BaseServer">
+													<option value="Ubuntu 14.04">Ubuntu 14.04</option>
+											</td>
+										</tr>
+										<tr>
+											<td>Content Management System</td>
+											<td>
+												<select id="CMS" name="CMS">
+													<option value="Wordpress">Wordpress</option>
+											</td>
+										</tr>
+										<tr>
+											<td>CMS Database Name</td>
+											<td><input type="text" id="websiteName" name="websiteName" placeholder = "mysite" required /></td>
+										</tr>
+										<tr>
+											<td>New Root Database Password</td>
+											<td><input id = "dbRootPWD" type = "password" name = "dbRootPWD" placeholder = "password" required /></td>
+										</tr>
+										<tr>
+											<td>Database Admin Username</td>
+											<td><input id = "dbAdminUname" type = "text" name = "dbAdminUname" placeholder = "Admin" required /></td>
+										</tr>
+										<tr>
+											<td>Database Admin Password</td>
+											<td><input id = "dbAdminPwd" type = "password" name = "dbAdminPwd" placeholder = "password" required /></td>
+										</tr>
+										<tr>
+											<td colspan="2" align="center"><button type = "submit" value = "submit">Submit</td>
+										</tr>
+									</table>	
+								</form> 
+							</div>
+						<ul id="messages"></ul>						
+					</div>
+				</div>			
+			</div>
+
+			<div id="footer">
+				<div id="footer-wrapper">
+					<ul class="navlist">
+						<li><a href="">Legal</a></li>
+						<li><a href="">Terms & Conditons</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<script src="app.js"></script> 
+				
+	</body>
+</html>
+

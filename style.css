@@ -1,0 +1,301 @@
+html,
+body {
+   	margin:0;
+   	padding:0;
+   	border:0;
+   	height:100%;
+}
+
+h1 {
+	font-family:"Montserrat",sans-serif;
+	font-size:24px;
+	font-weight:550;
+	line-height:30px;
+}
+
+h2 {
+	font-family:"Montserrat",sans-serif;
+	font-size:20px;
+	font-weight:550;
+	line-height:30px;
+}
+
+p {
+	text-align:justify;
+	font-family:"Cardo",sans-erif;
+	font-size:20px;
+	font-weight:200;
+	line-height:26.4px;
+}
+
+#container {
+	width:100%;	
+	min-height:100%;
+/*	background-image: url("img/background-green.png");*/
+}
+
+/*------------------- Header Section -------------------*/
+#header {
+	width:100%;
+	top:0px;
+	height:85px;
+	position:fixed;
+	background-image: url("img/background-green.png");
+}
+
+#header-container {
+	max-width:1200px;
+	margin:0px auto;
+	margin-top:0px;
+}
+
+	#logo{
+		float:left;
+		color:#e3e3e3;
+		font-family:"Montserrat",sans-serif;
+		font-size:75px;
+		padding-left:20px;
+	}
+	
+	#header-right{
+		float:right;
+		padding-top:25px;
+	}
+	
+	#login a:hover {
+		color:#e3e3e3;
+	}
+
+	#nav-container {
+		clear:both;
+		float:right;
+		padding:10px;
+	}
+	
+		.navlist{
+		
+		}
+
+		#nav-container ul
+		{
+			padding:0;
+			color:#FAF9F4;
+		}
+
+		#nav-container ul li { 
+			display:inline; 
+		}
+
+		#nav-container ul li a{
+			padding:10px;
+			color:#675ac6;
+			text-decoration:none;
+			font-size:20px;
+		}
+
+		#nav-container ul li a:hover{
+			color:#e3e3e3;
+		}
+
+/*------------------- Middle Section -------------------*/
+#middle {
+	margin-top:85px;
+	width:100%;
+	height:100%; 
+}
+
+.home-content {
+	max-width:1200px;
+	margin:0px auto;
+	padding:20px;
+}
+
+#middle-section-1 {
+	width:100%;
+	height:100%; 
+	background-image: url("img/background-cream.jpg");
+	color:#9D698C;
+}
+
+#middle-section-1 h1{
+	color:#9D698C;
+}
+
+#middle-section-1 h2{
+	color:#333333;
+}
+
+
+#middle-section-1 p{
+	color:#333333;
+}
+
+#middle-section-2 {
+	width:100%;
+	height:100%; 
+	background-image: url("img/background-purple.jpg");
+}
+
+#middle-section-2 h1{
+	color:#5ab7b1;
+	}
+
+#middle-section-2 p{
+	color:#e3e3e3;
+}
+
+#middle-section-3 {
+	width:100%;
+	height:100%; 
+	background-image: url("img/background-cream.jpg");
+}
+
+#middle-section-3 h1{
+	color:#9D698C
+}
+
+#middle-section-3 p{
+	color:#333333
+}
+
+#middle-section-4 {
+	width:100%;
+	height:100%; 
+	background-image: url("img/background-purple.jpg");
+}
+
+#middle-section-4 h1{
+	color:#5ab7b1;
+	}
+
+#middle-section-4 p{
+	color:#e3e3e3;
+}
+/*------------------- Form Section -------------------*/
+
+form {
+	margin: 0 auto;
+	width: 100%;
+}
+
+form table {
+	margin: 0 auto;
+}
+
+form table td{
+  height: 50px;
+  font-size: 1em;
+  font-weight:600;
+}
+
+
+form table input[type="text"] {
+	width: 300px;
+}
+
+form table input[type="password"] {
+	width: 300px;
+}
+
+form table option {
+	width: 300px;
+}
+
+#overviewForm button {
+	display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 10px;
+  font-weight:600;
+  padding: 0.6rem 1em;
+  color:#5ab7b1;
+  margin: 0 0.25rem;
+  text-align: center;
+  background-image: url("img/background-purple.jpg");
+  border-bottom: 1px solid #999;
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 1em;
+  font-weight:600;
+  padding: 0.6rem 1em;
+  color:#5ab7b1;
+  margin: 0 0.25rem;
+  text-align: center;
+  background-image: url("img/background-purple.jpg");
+  border-bottom: 1px solid #999;
+}
+
+button[type="submit"] {
+  background-image: url("img/background-purple.jpg");
+  border-bottom: 1px solid #5d7d1f;
+}
+
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+/*------------------- Footer Section -------------------*/
+#footer {
+	clear: both;
+	bottom:0;
+	width:100%;
+	height:45px;
+	background-image: url("img/background-green.png");
+	text-align:center;
+}
+
+#footer-wrapper {
+	max-width:1200px;
+	margin:0px auto;
+}
+
+#nav-list {
+	padding-top:20px;
+}
+#footer-wrapper ul
+{
+	padding:0;
+	color:#FAF9F4;
+}
+
+#footer-wrapper ul li { 
+	display:inline; 
+}
+
+#footer-wrapper ul li a{
+	padding:15px;
+	color:#FAF9F4;
+	text-decoration:none;
+	font-size:18px;
+}
+
+#footer-wrapper ul li a:hover{
+	color:#e3e3e3;
+}
+
+/* Change element structure for small screens 
+
+@media screen and (max-width: 480px) {
+	#header-wrapper #middle-wrapper #footer-wrapper{
+		width:100%;
+		max-width:480px;
+	}
+
+	#middle-section1, #middle-section2, #middle-section2-left, #middle-section2-right{
+		float:left;
+		clear:left;
+		width:100%;
+		max-width:480px;
+	}
+	
+	#middle-left-col, #middle-center-col, #middle-right-col{
+		width:100%;
+		max-width:480px;
+	}
+}
+*/

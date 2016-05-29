@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to alert the innerHTML of the cell with id="myTd" in the table's first row.</p>
+
+<table id="containerForm">
+										<tr>
+											<th width="500px">Container Name</th>
+											<th width="100px">Status</th>
+											<th width="100px">Start</th>
+											<th width="100px">Stop</th>
+											<th width="100px">Restart</th>
+											<th width="100px">Delete</th>
+											<th width="100px">Backup</th>
+											<th width="100px">Snapshot</th>
+										<tr>
+										<tr>
+											<form id="overview-form-1" name="overview-form-1">
+												<td align="center" id="allContainerStatus">All Containers</td>
+												<td align="center">N/A</td>
+												<td align="center" width="100px"><input value="containerStartAll" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"><input value="containerStopAll" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"><input value="containerRestartAll" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"><input value="containerDeleteALL" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"></td>
+												<td align="center" width="100px"></td>
+												<td align="center" width="100px"><button type = "submit" value = "submit">Submit</td>
+											</form>
+										</tr>
+									</table>
+<br> 
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    alert(document.getElementById("containerForm").rows[2].cells.namedItem("allContainerStatus").innerHTML);
+}
+</script>
+
+</body>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset = "utf-8">
+		<title>PraXis - Overview</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		
+		<!-- <script src="/jquery/jquery-2.2.3.js"></script> -->
+	</head>
+
+	<body>
+		<div id="container">
+			
+			<div id="header">
+				<div id="header-container">
+					<div id="logo">
+						PraXis
+					</div>
+					<div id="header-right">
+						<div id="nav-container">
+							<ul class="navlist">
+								<li><a  href="">Overview</a></li>
+								<li><a id="createContainerHref" href="#">Create New</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Forum</a></li>
+								<li><b><a id="logOutHref" href="index.html">Logout</a></b></li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</div>
+						
+			<div id="middle">			
+				<div id="middle-section-1">
+					<div class="home-content">	
+						<div id="status">Connecting...</div>
+							<div id="form">
+								<div id="overviewForm">
+									<table id="containerForm">
+										<tr>
+											<th width="500px">Container Name</th>
+											<th width="100px">Status</th>
+											<th width="100px">Start</th>
+											<th width="100px">Stop</th>
+											<th width="100px">Restart</th>
+											<th width="100px">Delete</th>
+											<th width="100px">Backup</th>
+											<th width="100px">Snapshot</th>
+										<tr>
+										<tr>
+											<form id="overview-form-1" name="overview-form-1">
+												<td align="center" id="allContainerName">All Containers</td>
+												<td align="center">N/A</td>
+												<td align="center" width="100px"><input value="containerStartAll" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"><input value="containerStopAll" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"><input value="containerRestartAll" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"><input value="containerDeleteALL" type="radio" name="cStartStop-1"></td>
+												<td align="center" width="100px"></td>
+												<td align="center" width="100px"></td>
+												<td align="center" width="100px"><button type = "submit" value = "submit">Submit</td>
+											</form>
+										</tr>
+									</table>
+									</br>
+									</br>
+									</br>
+									</br>
+									<table id="containerForm-2">
+										<tr>
+											<th width="500px">Container Name</th>
+											<th width="100px">Status</th>
+											<th width="100px">Start</th>
+											<th width="100px">Stop</th>
+											<th width="100px">Restart</th>
+											<th width="100px">Delete</th>
+											<th width="100px">Backup</th>
+											<th width="100px">Snapshot</th>
+										<tr>
+										<tr>
+											<form id="overview-form-2" name="overview-form-2">
+												<td id="userContainerName" align="center"></td>
+												<td id="userContainerStatus" align="center"></td>
+												<td align="center" width="100px"><input value="containerStart" type="radio" name="cStartStop-2"></td>
+												<td align="center" width="100px"><input value="containerStop" type="radio" name="cStartStop-2"></td>
+												<td align="center" width="100px"><input value="containerRestart" type="radio" name="cStartStop-2"></td>
+												<td align="center" width="100px"><input value="containerDelete" type="radio" name="cStartStop-2"></td>
+												<td align="center" width="100px"><input value="containerBackUp" type="radio" name="cStartStop-2"></td>
+												<td align="center" width="100px"><input value="containerSnapShot" type="radio" name="cStartStop-2"></td>
+												<td align="center" width="100px"><button type = "submit" value = "submit">Submit</td>
+											</form>
+										</tr>
+									</table>
+									</br>
+									</br>
+									</br>
+									</br>
+									<table id="containerForm-3">
+										<tr>
+											<th width="425px">Container Name</th>
+											<th width="100px">Status</th>
+											<th width="100px">IP Address</th>
+											<th width="100px">Memory Usage</th>
+											<th width="100px">Kernal Memory Usage</th>
+											<th width="100px">Swap</th>
+											<th width="100px">Swap Limit</th>
+											<th width="100px">CPU Up-Time</th>
+										<tr>
+									</table>	
+								</div>
+							</div>
+						<ul id="messages"></ul>						
+					</div>
+				</div>			
+			</div>
+
+			<div id="footer">
+				<div id="footer-wrapper">
+					<ul class="navlist">
+						<li><a href="">Legal</a></li>
+						<li><a href="">Terms & Conditons</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<ul id="messages"></ul>	
+		<script src="app.js"></script> 
+				
+	</body>
+</html>
+
