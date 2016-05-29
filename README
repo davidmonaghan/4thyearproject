@@ -1,1 +1,19 @@
-Just getting the project setup on github, nothing to see here yet.
+
+About The Project
+Setting up, configuring and maintaining a server(s) is a tedious and painstaking task. A single mistake and one will inevitably have to start from scratch. The project's goal is to take away some of that tedium by automating many of these initial tasks and allowing the client to get to the important part of building a website, namely designing the site and creating its content. 
+
+The author set himself the task of creating a service that can:  
+1. Create an Ubuntu 14.04 virtual machine
+2. Install and configure an Apache web server
+3. Install and configure a Wordpress CMS 
+4. Install and configure a MySQL database for Wordpress site
+5. A web interface to initiate and control the virtual machine
+6. Finally, to complete these tasks as quickly as possible
+
+This service should, once this project is completed, be easy to continue expanding if there is another development cycle, where ultimately the goal in mind is to create the service in full. The author aims to use best industry practices to ensure that another individual could take the project forward from where the project finishes.
+
+About The Author
+The author is a mature student having returned to College after many years in the workforce and looking for a new challenge. While the author has enjoyed his time in CIT, he is very much looking forward to finishing studying and moving onto the next challenge.
+
+Acknowledgements
+The author of this report would like to acknowledge the support provided by CIT in producing this report and through the implementation phase, particularly the project supervisor Meabh O'Connor and the second reader Noreen Gubbins. The author would also like thank the developers of LXC and the community that is growing around them for their help with some of the technical issues during the project. Finally the author would like to thank the judging panel for warding the author the prize of best final year project in the IT Management category, an honour for which the author is quite proud.
