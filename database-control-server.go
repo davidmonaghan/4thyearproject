@@ -12,23 +12,22 @@ import(
 )
 
 type NewContainerJSON struct {
-    CustomerType string				`json:"CustomerType,omitempty"`
-    CustomerUname string			`json:"CustomerUname,omitempty"`
-    Action string                   `json:"Action,omitempty"`
-    ContainerName string            `json:"ContainerName,omitempty"`
-    BaseServer string               `json:"BaseServer,omitempty"`
-    CMS string                      `json:"CMS,omitempty"`
-    WebsiteName string              `json:"WebsiteName,omitempty"`
-    DBrootPWD string                `json:"DBrootPWD,omitempty"`
-    DBadminUname string             `json:"DBadminUname,omitempty"`
-    DBadminPWD string               `json:"DBadminPWD,omitempty"`
-    ContainerStatus string          `json:"ContainerStatus,omitempty"`
-    ContainerIPaddress string       `json:"ContainerIPaddress,omitempty"`
-    WordpressStatus string			`json:"WordpressStatus,omitempty"`
+    CustomerType string			`json:"CustomerType,omitempty"`
+    CustomerUname string		`json:"CustomerUname,omitempty"`
+    Action string                   	`json:"Action,omitempty"`
+    ContainerName string            	`json:"ContainerName,omitempty"`
+    BaseServer string               	`json:"BaseServer,omitempty"`
+    CMS string                      	`json:"CMS,omitempty"`
+    WebsiteName string              	`json:"WebsiteName,omitempty"`
+    DBrootPWD string                	`json:"DBrootPWD,omitempty"`
+    DBadminUname string             	`json:"DBadminUname,omitempty"`
+    DBadminPWD string               	`json:"DBadminPWD,omitempty"`
+    ContainerStatus string          	`json:"ContainerStatus,omitempty"`
+    ContainerIPaddress string       	`json:"ContainerIPaddress,omitempty"`
+    WordpressStatus string		`json:"WordpressStatus,omitempty"`
 }
 
 func main() {
-	func main() {
 	log.Println("Database-Control-Server is up")
 
 	service := "192.168.1.103:8082" //"127.0.0.1:8081"
